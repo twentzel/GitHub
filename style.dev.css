@@ -686,7 +686,7 @@ code {
 kbd {
   padding: 2px 4px;
   font-size: 90%;
-  color: #ffffff;
+  color: white;
   background-color: #4b2e83;
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -705,7 +705,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   color: inherit;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #e9e6f0;
   border-radius: 4px;
 }
@@ -1563,7 +1563,7 @@ output {
   font-size: 17px;
   line-height: 1.72222;
   color: #c9c9c9;
-  background-color: #ffffff;
+  background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
   border-radius: 6px;
@@ -2179,7 +2179,7 @@ select[multiple].input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
 }
 .btn:active,
@@ -2200,7 +2200,7 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #ffffff;
+  color: white;
   background-color: #bdc3c7;
   border-color: #cccccc;
 }
@@ -2209,7 +2209,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #ffffff;
+  color: white;
   background-color: #a1aab0;
   border-color: #adadad;
 }
@@ -2238,7 +2238,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: #bdc3c7;
-  background-color: #ffffff;
+  background-color: white;
 }
 .btn-primary {
   color: #ffffff;
@@ -3080,7 +3080,7 @@ small,
   color: #bdc3c7;
 }
 .text-inverse {
-  color: #ffffff;
+  color: white;
 }
 .text-primary {
   color: #4b2e83;
@@ -3128,7 +3128,7 @@ a.text-info:hover {
   color: #2a7aaf;
 }
 .bg-primary {
-  color: #ffffff;
+  color: white;
   background-color: #4b2e83;
 }
 a.bg-primary:hover {
@@ -5972,7 +5972,7 @@ body.search-open #uwsearcharea .uw-search-wrapper {
   display: block;
   height: 54px;
   outline: 2px solid #808080;
-  background: url(assets/svg/search.svg) no-repeat center center #808080;
+  background: url(assets/svg/search.svg) no-repeat center center gray;
   position: relative;
   -webkit-background-size: 22px;
   -moz-background-size: 22px;
