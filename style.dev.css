@@ -8077,6 +8077,7 @@ a.uw-btn.btn-gold:before {
 }
 body.error404 .woof {
   height: 400px;
+  color: #000;
 }
 .uw-footer {
   background: url('assets/images/footer.jpg') center bottom;
