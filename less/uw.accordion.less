@@ -1,0 +1,34 @@
+/*
+ *  All styles for UW accordion
+ */
+
+.uw-accordion {
+    h3 {
+        background-color: #E8E8E8;
+        color: #565656;
+        padding: 15px 15px 15px 15px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 19px;
+        cursor: pointer;
+        &.active:after {
+            background-position: -283px -23px;
+        }
+    }
+    h3:after {
+        content: " ";
+        float: right;
+        display: block;
+        width: 30px;
+        height: 25px;
+        background: url(assets/svg/uw-sprite.svg) no-repeat -283px 2px rgba(255, 255, 255, 0);
+    }
+    div {
+        height: 0px;
+        overflow: hidden;
+    }
+    div.active {
+        height: auto;
+    }
+}
